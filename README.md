@@ -22,5 +22,5 @@ brew install --cask azman0101/tap/<cask>
   qu'ad hoc ; le cask retire l'attribut de quarantaine après installation.
 - Le cask est testé par la CI de `azman0101/meld-macos` (job `cask`), qui
   récupère ce fichier.
-- Pas encore installable : le `sha256` sera rempli à la première release du
-  DMG (`v3.22.3+105-fix1`).
+- À chaque nouvelle release, reporter la version et le sha256 indiqué dans les
+  notes de release.
