@@ -13,7 +13,7 @@ cask "meld-patched" do
     skip "Patched build of the meld cask"
   end
 
-  conflicts_with cask: "meld"
+  conflicts_with cask: ["meld", "meld-patched@3.24"]
   depends_on arch: :arm64
   depends_on :macos
 
