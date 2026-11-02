@@ -1,8 +1,8 @@
 cask "meld-patched" do
   arch arm: "arm64"
 
-  version "3.22.3,105,2"
-  sha256 "62dd4bbb321627d4882dbb8f99026c38ce1ef76f52687036bd3929a195c47d81"
+  version "3.22.3,105,3"
+  sha256 "b3d3c8815faa90158294571721c01317975fadaf20ad33c0a34b8d634e8e5fd9"
 
   url "https://github.com/azman0101/meld-macos/releases/download/v#{version.csv.first}+#{version.csv.second}-fix#{version.csv.third}/Meld-#{version.csv.first}+#{version.csv.second}-fix#{version.csv.third}-arm64.dmg"
   name "Meld (patched for macOS)"
